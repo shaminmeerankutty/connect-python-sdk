@@ -71,7 +71,7 @@ from squareconnect.rest import ApiException
 from squareconnect.apis.transactions_api import TransactionsApi
 
 # create an instance of the Transaction API class
-api_instance = TransactionApi()
+api_instance = TransactionsApi()
 # setup authorization
 api_instance.api_client.configuration.access_token = 'YOUR_ACCESS_TOKEN'
 
